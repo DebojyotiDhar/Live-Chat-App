@@ -1,6 +1,7 @@
 # Live Chat App
-![HTML Badge](https://img.shields.io/badge/HTML-red) ![CSS Badge](https://img.shields.io/badge/CSS-blue) ![JavaScript Badge](https://img.shields.io/badge/JS-yellow) ![Firebase](https://img.shields.io/badge/firebase-orange?logo=firebase) ![Bootstrap](https://img.shields.io/badge/bootstrap-blueviolet?logo=bootstrap&logoColor=white)
 A real-time live chat application built using **HTML**, **CSS**, **JavaScript**, **Firebase**, and **Bootstrap**. This project demonstrates how to create a fully functional and responsive chat interface powered by Firebase's Realtime Database for seamless communication.
+
+![HTML Badge](https://img.shields.io/badge/HTML-red) ![CSS Badge](https://img.shields.io/badge/CSS-blue) ![JavaScript Badge](https://img.shields.io/badge/JS-yellow) ![Firebase](https://img.shields.io/badge/firebase-orange?logo=firebase) ![Bootstrap](https://img.shields.io/badge/bootstrap-blueviolet?logo=bootstrap&logoColor=white)
 
 ---
 
