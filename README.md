@@ -16,9 +16,11 @@ A real-time live chat application built using **HTML**, **CSS**, **JavaScript**,
 ## Firebase Setup
 - Go to the Firebase Console.
 - Create a new project.
-- Add your web app and copy the Firebase configuration.
 - Replace the Firebase configuration object in your JavaScript file.
 - Enable Realtime Database in your Firebase project and set the rules to allow read/write
+- Go to Project setting
+- Add your web app
+- Copy the Firebase Configuration 
 
 # Project Demo
 Watch the full tutorial on my YouTube channel: [Assam Coding & Vlogging](https://youtu.be/5DObdvKKDsE)
