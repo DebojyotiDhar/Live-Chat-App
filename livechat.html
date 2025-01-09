@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Chat </title>
+
+    <link rel="stylesheet" href="./assets/css/livechat.css">
+
+</head>
+<body>
+    
+    <div class="chat-container">
+        <div class="chat-box">
+            <div class="chat-header">
+                <h2>Live Chat</h2>
+                <p id="fullName">User name</p>
+            </div>
+
+            <div class="messages"></div>
+            <div class="input-container">
+                <input type="hidden" id="username">
+                <textarea type="text" id="message" placeholder="Type Your Message"></textarea>
+                <button id="send-btn" title="Send Message"><img src="./assets/images/send.png"></button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./assets/js/app.js"></script>
+    <!-- Get Username from cookie -->
+    <script>
+
+        function getCookie(name){
+            const cookies = document.cookie.split(';');
+            for (let i=0; i<cookies.length; i++){
+                const[key, value] = cookies[i].split('=');
+                if(key === name) return value;
+            }
+            return null;
+        }
+
+        const username = getCookie('username');
+        if(username){
+            document.getElementById('username').value = username;
+            document.getElementById('fullName').innerHTML = username;
+        }
+
+    </script>
+
+</body>
+</html>
