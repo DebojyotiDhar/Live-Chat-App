@@ -4,13 +4,13 @@ import {getDatabase, ref, push, onChildAdded} from "https://www.gstatic.com/fire
 
 // Firebase Config
 const firebaseConfig = {
-    apiKey: "AIzaSyBhucE0hPMRsiL_Pz3Eq7lWf0vfL8VdPQg",
-    authDomain: "live-chat-app-be83a.firebaseapp.com",
-    projectId: "live-chat-app-be83a",
-    storageBucket: "live-chat-app-be83a.firebasestorage.app",
-    messagingSenderId: "931756051081",
-    appId: "1:931756051081:web:0e70596f58637fbeeed458",
-    measurementId: "G-XVWVQT29D8"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 // Initialise Firebase
